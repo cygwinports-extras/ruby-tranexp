@@ -1,0 +1,5 @@
+category: Ruby Text
+requires: ruby rubygems ruby-mechanize
+sdesc: "Ruby tranexp.com text translation module"
+ldesc: "Ruby module for translating words or phrases from one language to 
+another, using http://www.tranexp.com:2000/Translate/result.shtml"

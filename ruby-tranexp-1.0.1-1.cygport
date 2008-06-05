@@ -1,0 +1,6 @@
+ORIG_PN=tranexp
+inherit ruby
+
+DESCRIPTION="Ruby tranexp.com text translation module"
+HOMEPAGE="http://tranexp.rubyforge.org/"
+SRC_URI="mirror://rubyforge/tranexp/${ORIG_PN}-${PV}.tgz"

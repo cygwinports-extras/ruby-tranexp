@@ -1,0 +1,58 @@
+ruby-tranexp
+------------------------------------------
+Ruby module for translating words or phrases from one language to 
+another, using http://www.tranexp.com:2000/Translate/result.shtml
+
+Runtime requirements:
+  ruby-1.8.6_p114-1
+  ruby-mechanize-0.7.5-1
+  rubygems-1.1.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.3.11-1
+  rake-0.7.2-1
+
+Canonical website:
+  http://tranexp.rubyforge.org/
+
+Canonical download:
+  http://rubyforge.org/projects/tranexp/files
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-tranexp-1.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-tranexp-1.0.1-X.cygport all
+
+This will create:
+  /usr/src/ruby-tranexp-1.0.1-X-src.tar.bz2
+  /usr/src/ruby-tranexp-1.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/tranexp
+  /usr/lib/ruby/site_ruby/1.8/tranexp.rb
+  /usr/lib/ruby/site_ruby/1.8/tranexp/codes.rb
+  /usr/lib/ruby/site_ruby/1.8/tranexp/command.rb
+  /usr/lib/ruby/site_ruby/1.8/tranexp/http.rb
+  /usr/lib/ruby/site_ruby/1.8/tranexp/version.rb
+  /usr/share/doc/ruby-tranexp-1.0.1/HISTORY.txt
+  /usr/share/doc/ruby-tranexp-1.0.1/LICENSE.txt
+  /usr/share/doc/ruby-tranexp-1.0.1/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 1.0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
